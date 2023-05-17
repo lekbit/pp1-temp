@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="....">
+    <meta name="keywords" content="....">
+    <meta name="author" content="...">
+    <title>Form</title>
+    <link rel="stylesheet" href="./assets/styles/form_style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="./index.html" aria-label="Name of the site">
+                <h1>concrete houses</h1>
+            </a>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <a href="./index.html" aria-label="Home page">
+                    <li>Home</li>
+                </a>
+                <a href="./gallery.html" aria-label="Photos page">
+                    <li>Gallery</li>
+                </a>
+                <a href="./form.html" aria-label="Form page">
+                    <li class="nav-button-active">Form</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="post" action="" class="signup-form">
+            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i>
+            </h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" type="text" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" type="text" name="last_name" required>
+            <label for="email">Email Address</label>
+            <input class="text-input" id="email" type="email" name="email_address" required>
+            <label for="road">Road</label>
+            <input id="road" type="radio" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input id="trail" type="radio" name="running_preference" value="trail">
+            <label for="both">Both</label>
+            <input id="both" type="radio" name="running_preference" value="both">
+            <input class="join-button" type="submit" value="Let's Run!">
+        </form>
+    </main>
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter">
+                    <i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube">
+                    <i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/8a966a517d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

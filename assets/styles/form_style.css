@@ -1,0 +1,187 @@
+/* Pre-settings */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Lato, sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* /Pre-settings */
+
+header {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+
+
+#logo {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+    font-size: 150%;
+}
+
+#logo h1 {
+    color: black;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar li {
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#navbar a {
+    margin: 0 20px;
+    color: black;
+}
+
+#navbar li:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.nav-button-active {
+    border-bottom: 1px solid black;
+}
+
+/* main */
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form{
+    margin: 50px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: relative;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form h2{
+    color: #fafafa;
+    margin-bottom: 20px;;
+}
+
+.signup-form form{
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input{
+    color: #fafafa;
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover{
+    border-color: #f16c6b;
+}
+
+.join-button{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover{
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+/* /main */
+
+footer {
+    margin-top: 40px;
+    background-color: rgb(181, 181, 181);
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+}
+
+.social-networks li {
+    padding: 15px 50px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    header {
+        padding-left: 20px;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .social-networks li {
+        padding: 20px 10px;
+    }
+
+    #navbar li {
+        padding: 10px;
+        width: auto;
+    }
+
+    .social-networks {
+        display: flex;
+        justify-content: center;
+        font-size: 200%;
+    }
+
+    .social-networks li {
+        padding: 10px 20px;
+    }
+}
