@@ -22,3 +22,7 @@ As a user, I want to contact the company to get more specific information.
 + #### Footer page
 
     - Thanks to the tutorial project "Love Running" from which the form was borrowed.
+---
+## Design
+
+![Main Color](documentation/colors.PNG)
