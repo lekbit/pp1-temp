@@ -1,4 +1,4 @@
-![Concrete Houses logo](documentation/animal_shelter_logo.png)
+![Concrete Houses logo](documentation/logoai_com.jpg)
 
 ---
 # *Concrete Houses*
