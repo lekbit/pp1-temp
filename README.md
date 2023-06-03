@@ -38,6 +38,15 @@ As a user, I want to contact the company to get more specific information.
 
     - Thanks to the tutorial project "Love Running" from which the form was borrowed.
 ---
++ ### Home Page
+
+    - Represent:
+        * Show a possible type of building.
+        * Show the advantages of this category of houses.
+        * Shows feedback from satisfied clients.
+        * Invites to fill out the contact form.
+---
++ ### Introductory section
 ## Design
 
 ![Main Color](documentation/colors.PNG)
